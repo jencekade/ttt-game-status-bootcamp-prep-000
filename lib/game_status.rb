@@ -27,7 +27,11 @@ def won?(board)
       return combo
     elsif (position_1 == "O" && position_2 == "O" && position_3 == "O")
       return combo
+      true
+    else
+      false
     end
+    #board[combo]
   end
   false
 end
@@ -37,6 +41,13 @@ def full?(board)
     return false
   end
   return true
+  board.each do |location|
+    if (location != " ")
+      true
+    else
+      false
+    end
+  end
 end
 
 def draw?(board)
