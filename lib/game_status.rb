@@ -27,12 +27,9 @@ def won?(board)
       return combo
     elsif (position_1 == "O" && position_2 == "O" && position_3 == "O")
       return combo
-      true
-    else
-      false
     end
   end
-  false
+  return false
 end
 
 def full?(board)
