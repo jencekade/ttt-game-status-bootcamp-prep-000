@@ -31,7 +31,6 @@ def won?(board)
     else
       false
     end
-    #board[combo]
   end
   false
 end
