@@ -37,13 +37,6 @@ def full?(board)
     return false
   end
   return true
-  board.each do |location|
-    if (location != " ")
-      true
-    else
-      false
-    end
-  end
 end
 
 def draw?(board)
